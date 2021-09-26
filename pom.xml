@@ -26,7 +26,10 @@
 
                 <module>Login</module>
                 <module>UserManagement</module>
-                <module>Controller</module>
+                <module>Animals</module>
+                <module>Images</module>
+            <module>Animals</module>
+            <module>Images</module>
 
         </modules>
 

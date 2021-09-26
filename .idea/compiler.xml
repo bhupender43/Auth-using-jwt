@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="UserManagement" />
         <module name="Login" />
+        <module name="Animals" />
+        <module name="Images" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +19,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Animals" options="-parameters" />
       <module name="Controller" options="-parameters" />
+      <module name="Images" options="-parameters" />
       <module name="Login" options="-parameters" />
       <module name="Main-App" options="-parameters" />
       <module name="UserManagement" options="-parameters" />

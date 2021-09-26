@@ -3,13 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.animalcare</groupId>
         <artifactId>Main-App</artifactId>
+        <groupId>com.animalcare</groupId>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.animalcare</groupId>
-    <artifactId>UserManagement</artifactId>
+    <artifactId>Animals</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
@@ -27,17 +26,11 @@
 
         <dependency>
             <groupId>com.animalcare</groupId>
-            <artifactId>Animals</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.animalcare</groupId>
             <artifactId>Images</artifactId>
             <version>0.0.1</version>
         </dependency>
-    </dependencies>
 
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
