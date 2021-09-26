@@ -6,9 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 @Data
 @AllArgsConstructor
@@ -17,6 +15,8 @@ import java.util.List;
 @Entity(name = "Animals")
 public class Animal {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private Long animalId;
     private AnimalCategory category;
     private String name;
